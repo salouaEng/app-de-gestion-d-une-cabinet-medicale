@@ -1,0 +1,1090 @@
+INFO - 2023-09-06 10:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 10:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 10:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 10:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 10:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 11:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 11:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 11:37:16 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ControlleurCons.php on line 22.
+ 1 APPPATH\Controllers\ControlleurCons.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Controllers\\ControlleurCons.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurCons->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurCons))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:38:01 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ControlleurCons.php on line 22.
+ 1 APPPATH\Controllers\ControlleurCons.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Controllers\\ControlleurCons.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurCons->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurCons))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:46:34 --> syntax error, unexpected token "return", expecting "function" or "const"
+in APPPATH\Controllers\ControlleurCons.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Controllers\\ControlleurCons.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ControlleurCons')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ControlleurCons')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\ControlleurCons', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:46:36 --> syntax error, unexpected token "return", expecting "function" or "const"
+in APPPATH\Controllers\ControlleurCons.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Controllers\\ControlleurCons.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ControlleurCons')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ControlleurCons')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\ControlleurCons', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 12:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 12:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 12:22:37 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(72): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 12:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 12:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 12:32:01 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(72): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 12:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 12:32:09 --> Undefined variable $patient
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(104): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 12:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 12:32:09 --> Undefined variable $patient
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(104): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 12:41:46 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(72): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 13:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 13:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 13:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 13:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 13:43:40 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(72): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 13:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 13:43:47 --> Undefined variable $patient
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(105): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 13:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 13:43:47 --> Undefined variable $patient
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(105): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 13:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 13:51:04 --> Undefined variable $data
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(105): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 13:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 13:51:04 --> Undefined variable $data
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(105): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 13:55:04 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(72): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 13:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 13:58:46 --> Undefined variable $patient
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(104): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 13:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 13:58:46 --> Undefined variable $patient
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(104): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 14:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 14:02:02 --> Undefined variable $patient
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(104): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 14:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 14:02:03 --> Undefined variable $patient
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(104): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 14:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 14:05:18 --> Undefined variable $patient
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(104): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 14:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 14:05:18 --> Undefined variable $patient
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(104): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 16:00:42 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(72): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 16:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 16:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 16:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 16:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 16:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 16:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 16:09:03 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(72): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 16:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 16:09:11 --> Undefined variable $patient
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(104): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 16:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 16:09:11 --> Undefined variable $patient
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(104): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 16:16:29 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(72): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 16:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 16:16:32 --> Undefined variable $patient
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(104): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 16:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 16:16:32 --> Undefined variable $patient
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(104): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 18:18:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(72): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 18:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 18:18:32 --> Undefined variable $patient
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(104): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 18:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 18:18:33 --> Undefined variable $patient
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(104): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 18:18:43 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(72): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 18:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 18:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 18:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 18:18:57 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 10.
+ 1 APPPATH\Views\rendez_vous\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(98): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 18:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-06 18:19:04 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gestion_cabinet_medicale`.`rendez_vous`, CONSTRAINT `rendez_vous_ibfk_1` FOREIGN KEY (`id_compte`) REFERENCES `compte` (`id_compte`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `rendez_...', 0)
+#1 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `rendez_...')
+#2 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `rendez_...')
+#3 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `rendez_...', Array, false)
+#4 C:\xampp\htdocs\gestion_cabinet_medicale\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\gestion_cabinet_medicale\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\gestion_cabinet_medicale\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\gestion_cabinet_medicale\app\Controllers\ControlleurRv.php(114): CodeIgniter\Model->update('6', Array)
+#8 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(932): App\Controllers\ControlleurRv->update('6')
+#9 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+#10 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_cabinet_medicale\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-06 18:19:04 --> Cannot add or update a child row: a foreign key constraint fails (`gestion_cabinet_medicale`.`rendez_vous`, CONSTRAINT `rendez_vous_ibfk_1` FOREIGN KEY (`id_compte`) REFERENCES `compte` (`id_compte`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `rendez_vous` SET `date_rv` = \'2024-01-07\', `id_compte` = NULL, `id_patient` = \'4\'
+WHERE `rendez_vous`.`id_rv` IN (\'6\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `rendez_vous` SET `date_rv` = \'2024-01-07\', `id_compte` = NULL, `id_patient` = \'4\'
+WHERE `rendez_vous`.`id_rv` IN (\'6\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `rendez_vous` SET `date_rv` = \'2024-01-07\', `id_compte` = NULL, `id_patient` = \'4\'
+WHERE `rendez_vous`.`id_rv` IN (\'6\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `rendez_vous` SET `date_rv` = :date_rv:, `id_compte` = :id_compte:, `id_patient` = :id_patient:
+WHERE `rendez_vous`.`id_rv` IN :rendez_vous.id_rv:', [...], false)
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\ControlleurRv.php(114): CodeIgniter\Model->update('6', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->update('6')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 18:22:48 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 10.
+ 1 APPPATH\Views\rendez_vous\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(98): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 18:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-06 18:22:54 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gestion_cabinet_medicale`.`rendez_vous`, CONSTRAINT `rendez_vous_ibfk_1` FOREIGN KEY (`id_compte`) REFERENCES `compte` (`id_compte`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `rendez_...', 0)
+#1 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `rendez_...')
+#2 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `rendez_...')
+#3 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `rendez_...', Array, false)
+#4 C:\xampp\htdocs\gestion_cabinet_medicale\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\gestion_cabinet_medicale\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\gestion_cabinet_medicale\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\gestion_cabinet_medicale\app\Controllers\ControlleurRv.php(114): CodeIgniter\Model->update('6', Array)
+#8 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(932): App\Controllers\ControlleurRv->update('6')
+#9 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+#10 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_cabinet_medicale\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-06 18:22:54 --> Cannot add or update a child row: a foreign key constraint fails (`gestion_cabinet_medicale`.`rendez_vous`, CONSTRAINT `rendez_vous_ibfk_1` FOREIGN KEY (`id_compte`) REFERENCES `compte` (`id_compte`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `rendez_vous` SET `date_rv` = \'2024-01-07\', `id_compte` = NULL, `id_patient` = \'3\'
+WHERE `rendez_vous`.`id_rv` IN (\'6\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `rendez_vous` SET `date_rv` = \'2024-01-07\', `id_compte` = NULL, `id_patient` = \'3\'
+WHERE `rendez_vous`.`id_rv` IN (\'6\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `rendez_vous` SET `date_rv` = \'2024-01-07\', `id_compte` = NULL, `id_patient` = \'3\'
+WHERE `rendez_vous`.`id_rv` IN (\'6\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `rendez_vous` SET `date_rv` = :date_rv:, `id_compte` = :id_compte:, `id_patient` = :id_patient:
+WHERE `rendez_vous`.`id_rv` IN :rendez_vous.id_rv:', [...], false)
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\ControlleurRv.php(114): CodeIgniter\Model->update('6', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->update('6')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 18:22:57 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 10.
+ 1 APPPATH\Views\rendez_vous\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(98): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 18:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 18:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 18:23:45 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(72): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 18:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 18:23:58 --> Undefined variable $patient
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(104): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 18:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 18:23:58 --> Undefined variable $patient
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(104): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 18:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 18:27:33 --> Undefined variable $patient
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(104): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 18:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 18:27:33 --> Undefined variable $patient
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(104): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 18:49:34 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 11.
+ 1 APPPATH\Views\patient\modif.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(72): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 18:50:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(72): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 18:53:17 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 11.
+ 1 APPPATH\Views\patient\modif.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(72): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 18:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 18:53:50 --> Undefined variable $patient
+in APPPATH\Views\patient\modif.php on line 11.
+ 1 APPPATH\Views\patient\modif.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(105): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 18:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 18:53:50 --> Undefined variable $patient
+in APPPATH\Views\patient\modif.php on line 11.
+ 1 APPPATH\Views\patient\modif.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(105): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 19:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-06 19:01:20 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gestion_cabinet_medicale`.`patient`, CONSTRAINT `patient_ibfk_1` FOREIGN KEY (`id_compte`) REFERENCES `compte` (`id_compte`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `patient...', 0)
+#1 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `patient...')
+#2 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `patient...')
+#3 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `patient...', Array, false)
+#4 C:\xampp\htdocs\gestion_cabinet_medicale\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\gestion_cabinet_medicale\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\gestion_cabinet_medicale\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\gestion_cabinet_medicale\app\Controllers\ControlleurPatient.php(89): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('4')
+#9 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+#10 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_cabinet_medicale\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-06 19:01:20 --> Cannot add or update a child row: a foreign key constraint fails (`gestion_cabinet_medicale`.`patient`, CONSTRAINT `patient_ibfk_1` FOREIGN KEY (`id_compte`) REFERENCES `compte` (`id_compte`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `patient` SET `cin_patient` = \'P263536\', `nom` = NULL, `prenom` = \'ali\', `date_naissance` = \'2023-07-31\', `telephone` = \'064323122\', `adresse` = NULL, `id_compte` = NULL, `sexe` = \'homme\'
+WHERE `patient`.`id_patient` IN (\'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `patient` SET `cin_patient` = \'P263536\', `nom` = NULL, `prenom` = \'ali\', `date_naissance` = \'2023-07-31\', `telephone` = \'064323122\', `adresse` = NULL, `id_compte` = NULL, `sexe` = \'homme\'
+WHERE `patient`.`id_patient` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `patient` SET `cin_patient` = \'P263536\', `nom` = NULL, `prenom` = \'ali\', `date_naissance` = \'2023-07-31\', `telephone` = \'064323122\', `adresse` = NULL, `id_compte` = NULL, `sexe` = \'homme\'
+WHERE `patient`.`id_patient` IN (\'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `patient` SET `cin_patient` = :cin_patient:, `nom` = :nom:, `prenom` = :prenom:, `date_naissance` = :date_naissance:, `telephone` = :telephone:, `adresse` = :adresse:, `id_compte` = :id_compte:, `sexe` = :sexe:
+WHERE `patient`.`id_patient` IN :patient.id_patient:', [...], false)
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\ControlleurPatient.php(89): CodeIgniter\Model->update('4', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('4')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 19:01:26 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 11.
+ 1 APPPATH\Views\patient\modif.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(72): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 19:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-06 19:01:31 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gestion_cabinet_medicale`.`patient`, CONSTRAINT `patient_ibfk_1` FOREIGN KEY (`id_compte`) REFERENCES `compte` (`id_compte`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `patient...', 0)
+#1 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `patient...')
+#2 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `patient...')
+#3 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `patient...', Array, false)
+#4 C:\xampp\htdocs\gestion_cabinet_medicale\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\gestion_cabinet_medicale\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\gestion_cabinet_medicale\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\gestion_cabinet_medicale\app\Controllers\ControlleurPatient.php(89): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('4')
+#9 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+#10 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_cabinet_medicale\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-06 19:01:31 --> Cannot add or update a child row: a foreign key constraint fails (`gestion_cabinet_medicale`.`patient`, CONSTRAINT `patient_ibfk_1` FOREIGN KEY (`id_compte`) REFERENCES `compte` (`id_compte`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `patient` SET `cin_patient` = \'P263536\', `nom` = NULL, `prenom` = \'ali\', `date_naissance` = \'2023-07-31\', `telephone` = \'064323122\', `adresse` = NULL, `id_compte` = NULL, `sexe` = \'homme\'
+WHERE `patient`.`id_patient` IN (\'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `patient` SET `cin_patient` = \'P263536\', `nom` = NULL, `prenom` = \'ali\', `date_naissance` = \'2023-07-31\', `telephone` = \'064323122\', `adresse` = NULL, `id_compte` = NULL, `sexe` = \'homme\'
+WHERE `patient`.`id_patient` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `patient` SET `cin_patient` = \'P263536\', `nom` = NULL, `prenom` = \'ali\', `date_naissance` = \'2023-07-31\', `telephone` = \'064323122\', `adresse` = NULL, `id_compte` = NULL, `sexe` = \'homme\'
+WHERE `patient`.`id_patient` IN (\'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `patient` SET `cin_patient` = :cin_patient:, `nom` = :nom:, `prenom` = :prenom:, `date_naissance` = :date_naissance:, `telephone` = :telephone:, `adresse` = :adresse:, `id_compte` = :id_compte:, `sexe` = :sexe:
+WHERE `patient`.`id_patient` IN :patient.id_patient:', [...], false)
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\ControlleurPatient.php(89): CodeIgniter\Model->update('4', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('4')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 19:03:29 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 11.
+ 1 APPPATH\Views\patient\modif.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(72): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 19:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-06 19:03:35 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gestion_cabinet_medicale`.`patient`, CONSTRAINT `patient_ibfk_1` FOREIGN KEY (`id_compte`) REFERENCES `compte` (`id_compte`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `patient...', 0)
+#1 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `patient...')
+#2 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `patient...')
+#3 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `patient...', Array, false)
+#4 C:\xampp\htdocs\gestion_cabinet_medicale\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\gestion_cabinet_medicale\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\gestion_cabinet_medicale\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\gestion_cabinet_medicale\app\Controllers\ControlleurPatient.php(88): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('4')
+#9 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+#10 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_cabinet_medicale\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-06 19:03:35 --> Cannot add or update a child row: a foreign key constraint fails (`gestion_cabinet_medicale`.`patient`, CONSTRAINT `patient_ibfk_1` FOREIGN KEY (`id_compte`) REFERENCES `compte` (`id_compte`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `patient` SET `cin_patient` = \'P263536\', `nom` = NULL, `prenom` = \'ali\', `date_naissance` = \'2023-07-31\', `telephone` = \'064323122\', `adresse` = NULL, `id_compte` = NULL, `sexe` = \'homme\'
+WHERE `patient`.`id_patient` IN (\'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `patient` SET `cin_patient` = \'P263536\', `nom` = NULL, `prenom` = \'ali\', `date_naissance` = \'2023-07-31\', `telephone` = \'064323122\', `adresse` = NULL, `id_compte` = NULL, `sexe` = \'homme\'
+WHERE `patient`.`id_patient` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `patient` SET `cin_patient` = \'P263536\', `nom` = NULL, `prenom` = \'ali\', `date_naissance` = \'2023-07-31\', `telephone` = \'064323122\', `adresse` = NULL, `id_compte` = NULL, `sexe` = \'homme\'
+WHERE `patient`.`id_patient` IN (\'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `patient` SET `cin_patient` = :cin_patient:, `nom` = :nom:, `prenom` = :prenom:, `date_naissance` = :date_naissance:, `telephone` = :telephone:, `adresse` = :adresse:, `id_compte` = :id_compte:, `sexe` = :sexe:
+WHERE `patient`.`id_patient` IN :patient.id_patient:', [...], false)
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\ControlleurPatient.php(88): CodeIgniter\Model->update('4', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('4')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 19:49:14 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 11.
+ 1 APPPATH\Views\patient\modif.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(72): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 19:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-06 19:49:16 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gestion_cabinet_medicale`.`patient`, CONSTRAINT `patient_ibfk_1` FOREIGN KEY (`id_compte`) REFERENCES `compte` (`id_compte`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `patient...', 0)
+#1 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `patient...')
+#2 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `patient...')
+#3 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `patient...', Array, false)
+#4 C:\xampp\htdocs\gestion_cabinet_medicale\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\gestion_cabinet_medicale\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\gestion_cabinet_medicale\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\gestion_cabinet_medicale\app\Controllers\ControlleurPatient.php(87): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('4')
+#9 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+#10 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_cabinet_medicale\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-06 19:49:16 --> Cannot add or update a child row: a foreign key constraint fails (`gestion_cabinet_medicale`.`patient`, CONSTRAINT `patient_ibfk_1` FOREIGN KEY (`id_compte`) REFERENCES `compte` (`id_compte`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `patient` SET `cin_patient` = \'P263536\', `nom` = NULL, `prenom` = \'ali\', `date_naissance` = \'2023-07-31\', `telephone` = \'064323122\', `adresse` = NULL, `id_compte` = NULL, `sexe` = \'homme\'
+WHERE `patient`.`id_patient` IN (\'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `patient` SET `cin_patient` = \'P263536\', `nom` = NULL, `prenom` = \'ali\', `date_naissance` = \'2023-07-31\', `telephone` = \'064323122\', `adresse` = NULL, `id_compte` = NULL, `sexe` = \'homme\'
+WHERE `patient`.`id_patient` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `patient` SET `cin_patient` = \'P263536\', `nom` = NULL, `prenom` = \'ali\', `date_naissance` = \'2023-07-31\', `telephone` = \'064323122\', `adresse` = NULL, `id_compte` = NULL, `sexe` = \'homme\'
+WHERE `patient`.`id_patient` IN (\'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `patient` SET `cin_patient` = :cin_patient:, `nom` = :nom:, `prenom` = :prenom:, `date_naissance` = :date_naissance:, `telephone` = :telephone:, `adresse` = :adresse:, `id_compte` = :id_compte:, `sexe` = :sexe:
+WHERE `patient`.`id_patient` IN :patient.id_patient:', [...], false)
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\ControlleurPatient.php(87): CodeIgniter\Model->update('4', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('4')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 19:50:01 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 11.
+ 1 APPPATH\Views\patient\modif.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(72): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 19:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 19:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 19:50:10 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 11.
+ 1 APPPATH\Views\patient\modif.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(72): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 19:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-06 19:50:13 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gestion_cabinet_medicale`.`patient`, CONSTRAINT `patient_ibfk_1` FOREIGN KEY (`id_compte`) REFERENCES `compte` (`id_compte`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `patient...', 0)
+#1 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `patient...')
+#2 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `patient...')
+#3 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `patient...', Array, false)
+#4 C:\xampp\htdocs\gestion_cabinet_medicale\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\gestion_cabinet_medicale\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\gestion_cabinet_medicale\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\gestion_cabinet_medicale\app\Controllers\ControlleurPatient.php(87): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('4')
+#9 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+#10 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_cabinet_medicale\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-06 19:50:13 --> Cannot add or update a child row: a foreign key constraint fails (`gestion_cabinet_medicale`.`patient`, CONSTRAINT `patient_ibfk_1` FOREIGN KEY (`id_compte`) REFERENCES `compte` (`id_compte`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `patient` SET `cin_patient` = \'P263536\', `nom` = NULL, `prenom` = \'ali\', `date_naissance` = \'2023-07-31\', `telephone` = \'064323122\', `adresse` = NULL, `id_compte` = NULL, `sexe` = \'homme\'
+WHERE `patient`.`id_patient` IN (\'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `patient` SET `cin_patient` = \'P263536\', `nom` = NULL, `prenom` = \'ali\', `date_naissance` = \'2023-07-31\', `telephone` = \'064323122\', `adresse` = NULL, `id_compte` = NULL, `sexe` = \'homme\'
+WHERE `patient`.`id_patient` IN (\'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `patient` SET `cin_patient` = \'P263536\', `nom` = NULL, `prenom` = \'ali\', `date_naissance` = \'2023-07-31\', `telephone` = \'064323122\', `adresse` = NULL, `id_compte` = NULL, `sexe` = \'homme\'
+WHERE `patient`.`id_patient` IN (\'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `patient` SET `cin_patient` = :cin_patient:, `nom` = :nom:, `prenom` = :prenom:, `date_naissance` = :date_naissance:, `telephone` = :telephone:, `adresse` = :adresse:, `id_compte` = :id_compte:, `sexe` = :sexe:
+WHERE `patient`.`id_patient` IN :patient.id_patient:', [...], false)
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\ControlleurPatient.php(87): CodeIgniter\Model->update('4', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('4')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 19:51:26 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 11.
+ 1 APPPATH\Views\patient\modif.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(72): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 19:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 19:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 19:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 19:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 19:51:35 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 11.
+ 1 APPPATH\Views\patient\modif.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(72): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 19:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 19:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 19:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 19:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 19:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 19:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 19:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 19:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 19:53:23 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 11.
+ 1 APPPATH\Views\patient\modif.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(72): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 19:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 19:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 19:53:40 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 11.
+ 1 APPPATH\Views\patient\modif.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(72): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 19:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 19:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 19:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 19:59:05 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ControlleurPatient.php on line 71.
+ 1 APPPATH\Controllers\ControlleurPatient.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Controllers\\ControlleurPatient.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 19:59:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ControlleurPatient.php on line 71.
+ 1 APPPATH\Controllers\ControlleurPatient.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Controllers\\ControlleurPatient.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-06 20:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 20:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 20:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 20:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 20:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 20:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 20:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 20:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 20:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 20:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-06 21:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-06 21:53:11 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 38.
+ 1 APPPATH\Views\rendez_vous\modif.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(100): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 21:53:16 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 38.
+ 1 APPPATH\Views\rendez_vous\modif.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(100): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('images', 'ui-anim_basic_16x16.gif')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 22:04:27 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 82.
+ 1 APPPATH\Views\rendez_vous\modif.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 82)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(100): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('images', 'ui-anim_basic_16x16.gif')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 22:04:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 82.
+ 1 APPPATH\Views\rendez_vous\modif.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 82)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(100): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 22:04:37 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 82.
+ 1 APPPATH\Views\rendez_vous\modif.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 82)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(100): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('images', 'ui-anim_basic_16x16.gif')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 22:12:28 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 84.
+ 1 APPPATH\Views\rendez_vous\modif.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 84)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(100): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 22:12:32 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 84.
+ 1 APPPATH\Views\rendez_vous\modif.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 84)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(100): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('images', 'ui-anim_basic_16x16.gif')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 22:21:26 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 83.
+ 1 APPPATH\Views\rendez_vous\modif.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 83)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(100): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 22:21:30 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 83.
+ 1 APPPATH\Views\rendez_vous\modif.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 83)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(100): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('images', 'ui-anim_basic_16x16.gif')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 22:23:09 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 83.
+ 1 APPPATH\Views\rendez_vous\modif.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 83)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(100): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 22:23:13 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 83.
+ 1 APPPATH\Views\rendez_vous\modif.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 83)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(100): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('images', 'ui-anim_basic_16x16.gif')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 22:26:46 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 83.
+ 1 APPPATH\Views\rendez_vous\modif.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 83)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(100): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 22:26:50 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 83.
+ 1 APPPATH\Views\rendez_vous\modif.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 83)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(100): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('images', 'ui-anim_basic_16x16.gif')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 22:28:18 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 83.
+ 1 APPPATH\Views\rendez_vous\modif.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 83)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(100): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 22:28:22 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 83.
+ 1 APPPATH\Views\rendez_vous\modif.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 83)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(100): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('images', 'ui-anim_basic_16x16.gif')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 22:32:06 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 79.
+ 1 APPPATH\Views\rendez_vous\modif.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(100): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,11 @@
+{
+    "name": "hp/gestion_cabinet_medicale",
+    "autoload": {
+        "psr-4": {
+            "Hp\\GestionCabinetMedicale\\": "src/"
+        }
+    },
+    "require": {
+        "dompdf/dompdf": "^2.0"
+    }
+}

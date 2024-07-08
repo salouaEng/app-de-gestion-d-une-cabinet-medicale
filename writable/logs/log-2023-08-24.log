@@ -1,0 +1,154 @@
+INFO - 2023-08-24 12:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-24 12:23:09 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(59): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-24 12:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 12:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-24 15:20:57 --> Call to undefined function set_value()
+in APPPATH\Views\patient\enregistrement.php on line 14.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/enregistrement', [], true)
+ 4 APPPATH\Controllers\ControlleurPatient.php(23): view('patient/enregistrement')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->formulaire()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-24 15:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-24 15:21:02 --> Call to undefined function set_value()
+in APPPATH\Views\patient\enregistrement.php on line 14.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/enregistrement', [], true)
+ 4 APPPATH\Controllers\ControlleurPatient.php(23): view('patient/enregistrement')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->formulaire()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 15:41:59 --> Array to string conversion
+in APPPATH\Controllers\ControlleurPatient.php on line 53.
+ 1 APPPATH\Controllers\ControlleurPatient.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Controllers\\ControlleurPatient.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->enregistrer()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 15:42:28 --> Array to string conversion
+in APPPATH\Controllers\ControlleurPatient.php on line 53.
+ 1 APPPATH\Controllers\ControlleurPatient.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Controllers\\ControlleurPatient.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->enregistrer()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 15:44:27 --> Array to string conversion
+in APPPATH\Controllers\ControlleurPatient.php on line 54.
+ 1 APPPATH\Controllers\ControlleurPatient.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Controllers\\ControlleurPatient.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->enregistrer()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-24 15:45:39 --> mysqli_sql_exception: Column 'id_compte' cannot be null in C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\gestion_cabinet_medicale\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\gestion_cabinet_medicale\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\gestion_cabinet_medicale\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\gestion_cabinet_medicale\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\gestion_cabinet_medicale\app\Controllers\ControlleurPatient.php(52): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(932): App\Controllers\ControlleurPatient->enregistrer()
+#10 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+#11 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\gestion_cabinet_medicale\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-08-24 15:45:39 --> Column 'id_compte' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `patient` (`cin_patient`, `nom`, `prenom`, `date_naissance`, `telephone`, `adresse`, `id_compte`, `sexe`) VALUES (\'P35332\', \'chaafi\', \'saloua\', \'2023-08-11\', \'1234546576\', \'uguguguituih\', NULL, \'femme\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `patient` (`cin_patient`, `nom`, `prenom`, `date_naissance`, `telephone`, `adresse`, `id_compte`, `sexe`) VALUES (\'P35332\', \'chaafi\', \'saloua\', \'2023-08-11\', \'1234546576\', \'uguguguituih\', NULL, \'femme\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `patient` (`cin_patient`, `nom`, `prenom`, `date_naissance`, `telephone`, `adresse`, `id_compte`, `sexe`) VALUES (\'P35332\', \'chaafi\', \'saloua\', \'2023-08-11\', \'1234546576\', \'uguguguituih\', NULL, \'femme\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `patient` (`cin_patient`, `nom`, `prenom`, `date_naissance`, `telephone`, `adresse`, `id_compte`, `sexe`) VALUES (:cin_patient:, :nom:, :prenom:, :date_naissance:, :telephone:, :adresse:, :id_compte:, :sexe:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\ControlleurPatient.php(52): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->enregistrer()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-24 15:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 15:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-24 15:47:48 --> Call to undefined function display_error()
+in APPPATH\Views\patient\enregistrement.php on line 15.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/enregistrement', [], true)
+ 4 APPPATH\Controllers\ControlleurPatient.php(60): view('patient/enregistrement', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->enregistrer()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 15:49:54 --> Call to undefined function display_error()
+in APPPATH\Views\patient\enregistrement.php on line 15.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/enregistrement', [], true)
+ 4 APPPATH\Controllers\ControlleurPatient.php(67): view('patient/enregistrement', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->enregistrer()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 15:50:52 --> Call to undefined function display_error()
+in APPPATH\Views\patient\enregistrement.php on line 15.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/enregistrement', [], true)
+ 4 APPPATH\Controllers\ControlleurPatient.php(54): view('patient/enregistrement', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->enregistrer()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 15:54:15 --> Call to undefined function display_error()
+in APPPATH\Views\patient\enregistrement.php on line 15.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/enregistrement', [], true)
+ 4 APPPATH\Controllers\ControlleurPatient.php(57): view('patient/enregistrement', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->enregistrer()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 15:56:59 --> Call to undefined function display_error()
+in APPPATH\Views\patient\enregistrement.php on line 15.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/enregistrement', [], true)
+ 4 APPPATH\Controllers\ControlleurPatient.php(57): view('patient/enregistrement', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->enregistrer()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 15:57:27 --> Call to undefined function display_error()
+in APPPATH\Views\patient\enregistrement.php on line 15.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/enregistrement', [], true)
+ 4 APPPATH\Controllers\ControlleurPatient.php(57): view('patient/enregistrement', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->enregistrer()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-24 21:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 21:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-24 21:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

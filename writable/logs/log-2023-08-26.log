@@ -1,0 +1,494 @@
+INFO - 2023-08-26 09:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 09:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-26 09:43:05 --> Undefined array key "id_compte"
+in APPPATH\Controllers\Auth.php on line 49.
+ 1 APPPATH\Controllers\Auth.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_compte"', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Controllers\\Auth.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->authentifier()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-26 09:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 09:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 09:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 09:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 09:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 09:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-26 09:53:17 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(72): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 09:54:35 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(72): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-26 09:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 09:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 09:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 09:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 09:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 10:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-26 10:05:33 --> Undefined array key "cin_patient"
+in APPPATH\Views\rendez_vous\crudR.php on line 82.
+ 1 APPPATH\Views\rendez_vous\crudR.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cin_patient"', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\crudR.php', 82)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\crudR.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/crudR', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(14): view('rendez_vous/crudR', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-26 10:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 10:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 10:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 10:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 10:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-26 11:03:26 --> Undefined array key "cin_patient"
+in APPPATH\Views\rendez_vous\modif.php on line 25.
+ 1 APPPATH\Views\rendez_vous\modif.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cin_patient"', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(57): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 11:03:27 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 10.
+ 1 APPPATH\Views\rendez_vous\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(57): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 11:04:57 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 10.
+ 1 APPPATH\Views\rendez_vous\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(57): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 11:05:59 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 10.
+ 1 APPPATH\Views\rendez_vous\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(57): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-26 11:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 11:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 11:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-26 11:07:27 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 10.
+ 1 APPPATH\Views\rendez_vous\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(57): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-26 11:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 11:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 11:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 11:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 11:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 11:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 11:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-26 11:15:45 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\ControlleurRv.php(91): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->supprimer('1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-26 11:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 11:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-26 11:19:36 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\ControlleurRv.php(89): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->supprimer('1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 11:20:10 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\ControlleurRv.php(89): CodeIgniter\Model->update('6', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->supprimer('6')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-26 11:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 11:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 11:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 11:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 11:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 11:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-26 11:22:24 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\ControlleurRv.php(89): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->supprimer('1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 11:26:41 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\ControlleurRv.php(89): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->supprimer('1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-26 11:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-26 11:26:47 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\ControlleurRv.php(89): CodeIgniter\Model->update('6', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->supprimer('6')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-26 11:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-26 11:42:51 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 10.
+ 1 APPPATH\Views\rendez_vous\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(57): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 12:02:29 --> Undefined variable $rv
+in APPPATH\Views\rendez_vous\modif.php on line 10.
+ 1 APPPATH\Views\rendez_vous\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rv', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(63): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('6')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 12:02:29 --> Undefined variable $rv
+in APPPATH\Views\rendez_vous\modif.php on line 10.
+ 1 APPPATH\Views\rendez_vous\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rv', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(63): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 12:04:18 --> Undefined array key "data"
+in APPPATH\Views\rendez_vous\modif.php on line 10.
+ 1 APPPATH\Views\rendez_vous\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(63): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('6')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 12:04:18 --> Undefined array key "data"
+in APPPATH\Views\rendez_vous\modif.php on line 10.
+ 1 APPPATH\Views\rendez_vous\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(63): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 12:05:56 --> Array to string conversion
+in APPPATH\Views\rendez_vous\modif.php on line 10.
+ 1 APPPATH\Views\rendez_vous\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(63): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('6')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 12:05:56 --> Undefined variable $rv
+in APPPATH\Views\rendez_vous\modif.php on line 17.
+ 1 APPPATH\Views\rendez_vous\modif.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rv', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(63): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 12:10:27 --> Undefined variable $rv
+in APPPATH\Views\rendez_vous\modif.php on line 17.
+ 1 APPPATH\Views\rendez_vous\modif.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rv', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(63): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('6')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 12:10:27 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 10.
+ 1 APPPATH\Views\rendez_vous\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(63): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 12:13:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 10.
+ 1 APPPATH\Views\rendez_vous\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(63): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 12:13:33 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 10.
+ 1 APPPATH\Views\rendez_vous\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(63): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 12:14:22 --> Trying to access array offset on value of type null
+in APPPATH\Views\rendez_vous\modif.php on line 10.
+ 1 APPPATH\Views\rendez_vous\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(63): view('rendez_vous/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-26 12:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-26 12:14:36 --> "valide_date" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 286.
+ 1 SYSTEMPATH\Validation\Validation.php(286): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('valide_date')
+ 2 SYSTEMPATH\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('date_rv', 'date_rv', '2023-09-29', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\ControlleurRv.php(77): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->update('6')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-26 12:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 12:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-26 12:16:25 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\ControlleurRv.php(96): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->supprimer('1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 12:17:59 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\ControlleurRv.php(97): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->supprimer('1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 12:19:09 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\ControlleurRv.php(97): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->supprimer('1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-26 12:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 12:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 12:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-26 12:21:08 --> "valide_date" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 286.
+ 1 SYSTEMPATH\Validation\Validation.php(286): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('valide_date')
+ 2 SYSTEMPATH\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('date_rv', 'date_rv', '2023-09-10', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\ControlleurRv.php(39): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->enregistrer()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-26 12:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 12:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 17:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-26 17:50:46 --> mysqli_sql_exception: Table 'gestion_cabinet_medicale.consu' doesn't exist in C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\gestion_cabinet_medicale\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\gestion_cabinet_medicale\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\gestion_cabinet_medicale\app\Controllers\ControlleurCons.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(932): App\Controllers\ControlleurCons->index()
+#8 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurCons))
+#9 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\gestion_cabinet_medicale\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-08-26 17:50:46 --> Table 'gestion_cabinet_medicale.consu' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `consu`
+WHERE `statut` = \'succes\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `consu`
+WHERE `statut` = \'succes\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `consu`
+WHERE `statut` = \'succes\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `consu`
+WHERE `statut` = :statut:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ControlleurCons.php(12): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurCons->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurCons))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-26 17:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 21:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-26 21:46:05 --> Invalid file: "Cons/enregistremenent.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Cons/enregistremenent.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Cons/enregistremenent', [], true)
+ 3 APPPATH\Controllers\ControlleurCons.php(26): view('Cons/enregistremenent', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurCons->formulaire()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurCons))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 21:46:35 --> Undefined array key "id_patients"
+in APPPATH\Views\Cons\enregistrement.php on line 43.
+ 1 APPPATH\Views\Cons\enregistrement.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_patients"', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\Cons\\enregistrement.php', 43)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\Cons\\enregistrement.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Cons/enregistrement', [], true)
+ 5 APPPATH\Controllers\ControlleurCons.php(26): view('Cons/enregistrement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurCons->formulaire()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurCons))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-26 21:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 22:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-26 22:05:10 --> Undefined variable $patient
+in APPPATH\Views\rendez_vous\enregistrement.php on line 27.
+ 1 APPPATH\Views\rendez_vous\enregistrement.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\enregistrement.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\enregistrement.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/enregistrement', [], true)
+ 5 APPPATH\Controllers\ControlleurCons.php(54): view('rendez_vous/enregistrement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurCons->enregistrer()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurCons))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-26 22:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-26 22:07:15 --> Undefined variable $patient
+in APPPATH\Views\rendez_vous\enregistrement.php on line 27.
+ 1 APPPATH\Views\rendez_vous\enregistrement.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\enregistrement.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\enregistrement.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/enregistrement', [], true)
+ 5 APPPATH\Controllers\ControlleurCons.php(54): view('rendez_vous/enregistrement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurCons->enregistrer()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurCons))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-26 22:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-26 22:08:32 --> Undefined variable $patient
+in APPPATH\Views\rendez_vous\enregistrement.php on line 27.
+ 1 APPPATH\Views\rendez_vous\enregistrement.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\enregistrement.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\enregistrement.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/enregistrement', [], true)
+ 5 APPPATH\Controllers\ControlleurCons.php(54): view('rendez_vous/enregistrement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurCons->enregistrer()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurCons))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-26 22:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-26 22:11:42 --> Undefined variable $rv
+in APPPATH\Views\Cons\enregistrement.php on line 37.
+ 1 APPPATH\Views\Cons\enregistrement.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rv', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\Cons\\enregistrement.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\Cons\\enregistrement.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Cons/enregistrement', [], true)
+ 5 APPPATH\Controllers\ControlleurCons.php(54): view('Cons/enregistrement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurCons->enregistrer()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurCons))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-26 22:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-26 22:16:26 --> Undefined variable $rv
+in APPPATH\Views\Cons\enregistrement.php on line 37.
+ 1 APPPATH\Views\Cons\enregistrement.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rv', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\Cons\\enregistrement.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\Cons\\enregistrement.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Cons/enregistrement', [], true)
+ 5 APPPATH\Controllers\ControlleurCons.php(54): view('Cons/enregistrement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurCons->enregistrer()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurCons))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

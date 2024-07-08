@@ -1,0 +1,337 @@
+CRITICAL - 2023-08-21 10:04:49 --> Invalid file: "error.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('error', [], true)
+ 3 APPPATH\Controllers\Auth.php(50): view('error')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->authentifier()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 10:06:40 --> Invalid file: "error.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('error', [], true)
+ 3 APPPATH\Controllers\Auth.php(50): view('error')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->authentifier()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 10:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 10:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 10:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 10:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 10:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 10:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 10:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 10:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 10:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 10:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 10:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 10:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 10:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 10:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 10:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 10:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 10:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 10:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 10:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 10:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 10:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 10:58:24 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(42): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-21 10:58:49 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gestion_cabinet_medicale`.`patient`, CONSTRAINT `patient_ibfk_1` FOREIGN KEY (`id_compte`) REFERENCES `compte` (`id_compte`)) in C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `patient...', 0)
+#1 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `patient...')
+#2 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `patient...')
+#3 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `patient...', Array, false)
+#4 C:\xampp\htdocs\gestion_cabinet_medicale\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\gestion_cabinet_medicale\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\gestion_cabinet_medicale\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\gestion_cabinet_medicale\app\Controllers\ControlleurPatient.php(57): CodeIgniter\Model->update('P32456', Array)
+#8 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('P32456')
+#9 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+#10 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\gestion_cabinet_medicale\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-21 10:58:49 --> Cannot add or update a child row: a foreign key constraint fails (`gestion_cabinet_medicale`.`patient`, CONSTRAINT `patient_ibfk_1` FOREIGN KEY (`id_compte`) REFERENCES `compte` (`id_compte`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `patient` SET `nom` = NULL, `prenom` = NULL, `date_naissance` = \'2022-01-20\', `telephone` = \'0634254233\', `adresse` = NULL, `id_compte` = NULL, `sexe` = \'1\'
+WHERE `patient`.`cin_patient` IN (\'P32456\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `patient` SET `nom` = NULL, `prenom` = NULL, `date_naissance` = \'2022-01-20\', `telephone` = \'0634254233\', `adresse` = NULL, `id_compte` = NULL, `sexe` = \'1\'
+WHERE `patient`.`cin_patient` IN (\'P32456\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `patient` SET `nom` = NULL, `prenom` = NULL, `date_naissance` = \'2022-01-20\', `telephone` = \'0634254233\', `adresse` = NULL, `id_compte` = NULL, `sexe` = \'1\'
+WHERE `patient`.`cin_patient` IN (\'P32456\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `patient` SET `nom` = :nom:, `prenom` = :prenom:, `date_naissance` = :date_naissance:, `telephone` = :telephone:, `adresse` = :adresse:, `id_compte` = :id_compte:, `sexe` = :sexe:
+WHERE `patient`.`cin_patient` IN :patient.cin_patient:', [...], false)
+ 5 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\ControlleurPatient.php(57): CodeIgniter\Model->update('P32456', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->update('P32456')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 11:01:35 --> Trying to access array offset on value of type null
+in APPPATH\Views\patient\modif.php on line 10.
+ 1 APPPATH\Views\patient\modif.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\modif.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/modif', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(42): view('patient/modif', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->modifier('assets', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 11:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 11:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 11:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 11:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 11:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 11:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 11:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 11:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 11:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 11:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 11:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 11:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 11:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 11:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 12:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 12:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 12:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 14:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 14:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 14:17:01 --> Cannot instantiate abstract class App\Controllers\ControlleurRv
+in SYSTEMPATH\CodeIgniter.php on line 904.
+ 1 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 14:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 15:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 15:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 15:16:24 --> Undefined variable $patient
+in APPPATH\Views\rendez_vous\enregistrement.php on line 32.
+ 1 APPPATH\Views\rendez_vous\enregistrement.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\enregistrement.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\enregistrement.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/enregistrement', [...], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(23): view('rendez_vous/enregistrement', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->formulaire()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 15:17:08 --> Undefined variable $patient
+in APPPATH\Views\rendez_vous\enregistrement.php on line 32.
+ 1 APPPATH\Views\rendez_vous\enregistrement.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\enregistrement.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\enregistrement.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/enregistrement', [...], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(23): view('rendez_vous/enregistrement', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->formulaire()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 15:17:09 --> Undefined variable $patient
+in APPPATH\Views\rendez_vous\enregistrement.php on line 32.
+ 1 APPPATH\Views\rendez_vous\enregistrement.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\enregistrement.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\enregistrement.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/enregistrement', [...], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(23): view('rendez_vous/enregistrement', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->formulaire()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 15:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-21 15:17:16 --> Undefined variable $patient
+in APPPATH\Views\rendez_vous\enregistrement.php on line 32.
+ 1 APPPATH\Views\rendez_vous\enregistrement.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\enregistrement.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\enregistrement.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/enregistrement', [...], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(23): view('rendez_vous/enregistrement', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->formulaire()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 15:22:21 --> Undefined variable $compte
+in APPPATH\Views\rendez_vous\enregistrement.php on line 22.
+ 1 APPPATH\Views\rendez_vous\enregistrement.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $compte', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\enregistrement.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\enregistrement.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/enregistrement', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(25): view('rendez_vous/enregistrement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->formulaire()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 15:23:36 --> Undefined variable $patient
+in APPPATH\Views\rendez_vous\enregistrement.php on line 32.
+ 1 APPPATH\Views\rendez_vous\enregistrement.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\enregistrement.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\enregistrement.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/enregistrement', [...], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(25): view('rendez_vous/enregistrement', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->formulaire()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 15:24:14 --> Undefined variable $compte
+in APPPATH\Views\rendez_vous\enregistrement.php on line 22.
+ 1 APPPATH\Views\rendez_vous\enregistrement.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $compte', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\enregistrement.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\enregistrement.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/enregistrement', [...], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(25): view('rendez_vous/enregistrement', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->formulaire()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-21 15:24:54 --> Undefined variable $compte
+in APPPATH\Views\rendez_vous\enregistrement.php on line 22.
+ 1 APPPATH\Views\rendez_vous\enregistrement.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $compte', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\enregistrement.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\enregistrement.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/enregistrement', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(25): view('rendez_vous/enregistrement', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->formulaire()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-21 15:34:41 --> mysqli_sql_exception: Column 'date_rv' cannot be null in C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\gestion_cabinet_medicale\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\gestion_cabinet_medicale\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\gestion_cabinet_medicale\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\gestion_cabinet_medicale\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\gestion_cabinet_medicale\app\Controllers\ControlleurRv.php(38): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(932): App\Controllers\ControlleurRv->enregistrer()
+#10 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+#11 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\gestion_cabinet_medicale\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-08-21 15:34:41 --> Column 'date_rv' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `rendez_vous` (`date_rv`, `id_compte`, `cin_patient`) VALUES (NULL, \'1\', \'P35332\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `rendez_vous` (`date_rv`, `id_compte`, `cin_patient`) VALUES (NULL, \'1\', \'P35332\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `rendez_vous` (`date_rv`, `id_compte`, `cin_patient`) VALUES (NULL, \'1\', \'P35332\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `rendez_vous` (`date_rv`, `id_compte`, `cin_patient`) VALUES (:date_rv:, :id_compte:, :cin_patient:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\ControlleurRv.php(38): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->enregistrer()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-21 15:35:51 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gestion_cabinet_medicale`.`rendez_vous`, CONSTRAINT `rendez_vous_ibfk_2` FOREIGN KEY (`cin_patient`) REFERENCES `patient` (`cin_patient`)) in C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\gestion_cabinet_medicale\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\gestion_cabinet_medicale\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\gestion_cabinet_medicale\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\gestion_cabinet_medicale\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\gestion_cabinet_medicale\app\Controllers\ControlleurRv.php(38): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(932): App\Controllers\ControlleurRv->enregistrer()
+#10 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+#11 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\gestion_cabinet_medicale\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-08-21 15:35:51 --> Cannot add or update a child row: a foreign key constraint fails (`gestion_cabinet_medicale`.`rendez_vous`, CONSTRAINT `rendez_vous_ibfk_2` FOREIGN KEY (`cin_patient`) REFERENCES `patient` (`cin_patient`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `rendez_vous` (`date_rv`, `id_compte`, `cin_patient`) VALUES (\'2023-02-12\', \'1\', \'P35332\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `rendez_vous` (`date_rv`, `id_compte`, `cin_patient`) VALUES (\'2023-02-12\', \'1\', \'P35332\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `rendez_vous` (`date_rv`, `id_compte`, `cin_patient`) VALUES (\'2023-02-12\', \'1\', \'P35332\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `rendez_vous` (`date_rv`, `id_compte`, `cin_patient`) VALUES (:date_rv:, :id_compte:, :cin_patient:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\ControlleurRv.php(38): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->enregistrer()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-21 15:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 15:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-21 15:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-21 15:43:57 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gestion_cabinet_medicale`.`rendez_vous`, CONSTRAINT `rendez_vous_ibfk_2` FOREIGN KEY (`cin_patient`) REFERENCES `patient` (`cin_patient`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\gestion_cabinet_medicale\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\gestion_cabinet_medicale\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\gestion_cabinet_medicale\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\gestion_cabinet_medicale\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\gestion_cabinet_medicale\app\Controllers\ControlleurRv.php(38): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(932): App\Controllers\ControlleurRv->enregistrer()
+#10 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+#11 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\gestion_cabinet_medicale\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-08-21 15:43:57 --> Cannot add or update a child row: a foreign key constraint fails (`gestion_cabinet_medicale`.`rendez_vous`, CONSTRAINT `rendez_vous_ibfk_2` FOREIGN KEY (`cin_patient`) REFERENCES `patient` (`cin_patient`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `rendez_vous` (`date_rv`, `id_compte`, `cin_patient`) VALUES (\'2023-12-12\', \'1\', \'P35332\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `rendez_vous` (`date_rv`, `id_compte`, `cin_patient`) VALUES (\'2023-12-12\', \'1\', \'P35332\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `rendez_vous` (`date_rv`, `id_compte`, `cin_patient`) VALUES (\'2023-12-12\', \'1\', \'P35332\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `rendez_vous` (`date_rv`, `id_compte`, `cin_patient`) VALUES (:date_rv:, :id_compte:, :cin_patient:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\ControlleurRv.php(38): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->enregistrer()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-21 15:45:03 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gestion_cabinet_medicale`.`rendez_vous`, CONSTRAINT `rendez_vous_ibfk_2` FOREIGN KEY (`cin_patient`) REFERENCES `patient` (`cin_patient`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\gestion_cabinet_medicale\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\gestion_cabinet_medicale\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\gestion_cabinet_medicale\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\gestion_cabinet_medicale\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\gestion_cabinet_medicale\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\gestion_cabinet_medicale\app\Controllers\ControlleurRv.php(38): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(932): App\Controllers\ControlleurRv->enregistrer()
+#10 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+#11 C:\xampp\htdocs\gestion_cabinet_medicale\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\gestion_cabinet_medicale\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-08-21 15:45:03 --> Cannot add or update a child row: a foreign key constraint fails (`gestion_cabinet_medicale`.`rendez_vous`, CONSTRAINT `rendez_vous_ibfk_2` FOREIGN KEY (`cin_patient`) REFERENCES `patient` (`cin_patient`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `rendez_vous` (`date_rv`, `id_compte`, `cin_patient`) VALUES (\'2023-12-12\', \'1\', \'P35332\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `rendez_vous` (`date_rv`, `id_compte`, `cin_patient`) VALUES (\'2023-12-12\', \'1\', \'P35332\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `rendez_vous` (`date_rv`, `id_compte`, `cin_patient`) VALUES (\'2023-12-12\', \'1\', \'P35332\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `rendez_vous` (`date_rv`, `id_compte`, `cin_patient`) VALUES (:date_rv:, :id_compte:, :cin_patient:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\ControlleurRv.php(38): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->enregistrer()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

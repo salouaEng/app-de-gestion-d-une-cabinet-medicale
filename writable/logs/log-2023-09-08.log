@@ -1,0 +1,256 @@
+INFO - 2023-09-08 09:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 09:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-08 09:45:34 --> Array to string conversion
+in APPPATH\Views\rendez_vous\calendrier.php on line 79.
+ 1 APPPATH\Views\rendez_vous\calendrier.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\calendrier.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\calendrier.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/calendrier', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(200): view('rendez_vous/calendrier', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->calendrier()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 09:46:24 --> Array to string conversion
+in APPPATH\Views\rendez_vous\calendrier.php on line 79.
+ 1 APPPATH\Views\rendez_vous\calendrier.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\calendrier.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\calendrier.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/calendrier', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(200): view('rendez_vous/calendrier', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->calendrier()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 09:48:49 --> Cannot access offset of type string on string
+in APPPATH\Controllers\ControlleurPatient.php on line 101.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->FichePatient('6')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 09:55:50 --> Undefined array key "cin"
+in APPPATH\Views\patient\fiche.php on line 23.
+ 1 APPPATH\Views\patient\fiche.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cin"', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\fiche.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\fiche.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/fiche', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(102): view('patient/fiche', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->FichePatient('6')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 09:56:18 --> Cannot access offset of type string on string
+in APPPATH\Views\patient\fiche.php on line 47.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/fiche', [], true)
+ 4 APPPATH\Controllers\ControlleurPatient.php(102): view('patient/fiche', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->FichePatient('6')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 09:58:51 --> Undefined array key "cin_patientà"
+in APPPATH\Views\patient\fiche.php on line 23.
+ 1 APPPATH\Views\patient\fiche.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cin_patientà"', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\fiche.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\fiche.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/fiche', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(102): view('patient/fiche', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->FichePatient('6')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 10:23:40 --> Trying to access array offset on value of type int
+in APPPATH\Controllers\ControlleurPatient.php on line 116.
+ 1 APPPATH\Controllers\ControlleurPatient.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Controllers\\ControlleurPatient.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->FichePatient('6')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 10:39:11 --> Undefined variable $rdvJson
+in APPPATH\Views\rendez_vous\calendrier.php on line 74.
+ 1 APPPATH\Views\rendez_vous\calendrier.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rdvJson', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\calendrier.php', 74)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\calendrier.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/calendrier', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(201): view('rendez_vous/calendrier', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->calendrier()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-08 10:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-08 10:39:50 --> Undefined variable $rdvJson
+in APPPATH\Views\rendez_vous\calendrier.php on line 74.
+ 1 APPPATH\Views\rendez_vous\calendrier.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rdvJson', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\calendrier.php', 74)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\calendrier.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/calendrier', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(201): view('rendez_vous/calendrier', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->calendrier()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 10:40:24 --> Undefined variable $rvJson
+in APPPATH\Controllers\ControlleurRv.php on line 201.
+ 1 APPPATH\Controllers\ControlleurRv.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rvJson', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Controllers\\ControlleurRv.php', 201)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->calendrier()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 11:26:26 --> Undefined variable $rdvJson
+in APPPATH\Views\rendez_vous\calendrier.php on line 74.
+ 1 APPPATH\Views\rendez_vous\calendrier.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rdvJson', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\calendrier.php', 74)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\calendrier.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/calendrier', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(201): view('rendez_vous/calendrier', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->calendrier()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 11:30:13 --> Undefined variable $rdvJson
+in APPPATH\Views\rendez_vous\calendrier.php on line 74.
+ 1 APPPATH\Views\rendez_vous\calendrier.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rdvJson', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\calendrier.php', 74)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\calendrier.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/calendrier', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(201): view('rendez_vous/calendrier', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->calendrier()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 11:30:15 --> Undefined variable $rdvJson
+in APPPATH\Views\rendez_vous\calendrier.php on line 74.
+ 1 APPPATH\Views\rendez_vous\calendrier.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rdvJson', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\calendrier.php', 74)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\rendez_vous\\calendrier.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('rendez_vous/calendrier', [], true)
+ 5 APPPATH\Controllers\ControlleurRv.php(201): view('rendez_vous/calendrier', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurRv->calendrier()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurRv))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 11:30:56 --> Unmatched '}'
+in APPPATH\Controllers\ControlleurPatient.php on line 119.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Controllers\\ControlleurPatient.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ControlleurPatient')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ControlleurPatient')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\ControlleurPatient', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 11:31:29 --> Cannot access offset of type string on string
+in APPPATH\Controllers\ControlleurPatient.php on line 110.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->FichePatient('7')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 11:41:30 --> Cannot access offset of type string on string
+in APPPATH\Views\patient\fiche.php on line 47.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/fiche', [], true)
+ 4 APPPATH\Controllers\ControlleurPatient.php(102): view('patient/fiche', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->FichePatient('7')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-08 12:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 12:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 14:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-08 14:19:30 --> Undefined array key "id_role"
+in APPPATH\Views\patient\fiche.php on line 49.
+ 1 APPPATH\Views\patient\fiche.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_role"', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\fiche.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\patient\\fiche.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('patient/fiche', [], true)
+ 5 APPPATH\Controllers\ControlleurPatient.php(106): view('patient/fiche', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->FichePatient('6', '13')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-08 14:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-08 14:45:21 --> Undefined array key "id_role"
+in APPPATH\Controllers\ControlleurPatient.php on line 106.
+ 1 APPPATH\Controllers\ControlleurPatient.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_role"', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Controllers\\ControlleurPatient.php', 106)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->FichePatient('6', '13')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-08 14:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-08 14:46:17 --> Array to string conversion
+in APPPATH\Controllers\ControlleurPatient.php on line 106.
+ 1 APPPATH\Controllers\ControlleurPatient.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Controllers\\ControlleurPatient.php', 106)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->FichePatient('6', '13')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-08 14:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-08 14:46:41 --> Undefined array key "id_role"
+in APPPATH\Controllers\ControlleurPatient.php on line 106.
+ 1 APPPATH\Controllers\ControlleurPatient.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_role"', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Controllers\\ControlleurPatient.php', 106)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->FichePatient('6', '13')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-08 14:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-08 14:47:40 --> Undefined array key "user_name"
+in APPPATH\Controllers\ControlleurPatient.php on line 106.
+ 1 APPPATH\Controllers\ControlleurPatient.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_name"', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Controllers\\ControlleurPatient.php', 106)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->FichePatient('6', '13')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-08 14:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 14:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-08 14:48:27 --> Undefined array key "id_role"
+in APPPATH\Controllers\ControlleurPatient.php on line 107.
+ 1 APPPATH\Controllers\ControlleurPatient.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_role"', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Controllers\\ControlleurPatient.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurPatient->FichePatient('7', '14')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurPatient))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-08 14:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 14:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 14:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 14:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 14:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 14:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 14:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 14:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 14:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 14:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 14:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 14:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 14:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 14:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 15:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 15:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 15:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 15:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 16:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 16:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 16:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 16:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-08 16:49:33 --> Undefined variable $patient
+in APPPATH\Views\Cons\cons.php on line 11.
+ 1 APPPATH\Views\Cons\cons.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $patient', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\Cons\\cons.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\Cons\\cons.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Cons/cons', [], true)
+ 5 APPPATH\Controllers\ControlleurCons.php(151): view('Cons/cons', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurCons->afficheConsultation('7')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurCons))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-08 16:51:03 --> Undefined array key "cin"
+in APPPATH\Views\Cons\cons.php on line 27.
+ 1 APPPATH\Views\Cons\cons.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cin"', 'C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\Cons\\cons.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\gestion_cabinet_medicale\\app\\Views\\Cons\\cons.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Cons/cons', [], true)
+ 5 APPPATH\Controllers\ControlleurCons.php(151): view('Cons/cons', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControlleurCons->afficheConsultation('7')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControlleurCons))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
